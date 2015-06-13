@@ -5,7 +5,7 @@ module Poseidon
   #
   # @api public
   class PartitionConsumer
-    # The offset of the latest message the broker recieved for this partition.
+    # The offset of the latest message the broker received for this partition.
     # Useful for knowning how far behind the consumer is. This value is only
     # as recent as the last fetch call.
     attr_reader :highwater_mark
